@@ -71,7 +71,7 @@ def unlock_directory(input_dir):
             cmd = [cli_path, "-i", file_path, "-o", input_dir]
             
             # Run hidden to keep output clean, valid for some CLIs
-            result = subprocess.run(cmd, capture_output=True, text=True)
+            result = subprocess.run(cmd, capture_output=True, text=True, encoding='utf-8', errors='replace')
             
             if result.returncode == 0:
                 print("[OK]")
