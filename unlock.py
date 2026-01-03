@@ -54,7 +54,7 @@ def main():
         
         try:
             # Run per file. Keep it quiet unless verbose needed.
-            result = subprocess.run(cmd, capture_output=True, text=True)
+            result = subprocess.run(cmd, capture_output=True, text=True, encoding='utf-8', errors='replace')
             
             if result.returncode == 0:
                 print(" [OK]")
