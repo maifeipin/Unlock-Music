@@ -1,0 +1,12 @@
+# --- Core Tools (Recommended) ---
+# unlock.py, clean.py, archive.py
+# No external dependencies required. (Uses Python Standard Library)
+
+# --- Legacy Tools (Optional) ---
+# If you run scripts in the legacy/ folder (e.g. browser_unlock.py)
+# you will need the following packages:
+# selenium
+# webdriver-manager
+# pyautogui
+# keyboard
+# pygetwindow

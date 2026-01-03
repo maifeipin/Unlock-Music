@@ -1,0 +1,37 @@
+# System files
+thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Logs (State tracking)
+*.log
+failed.log
+processed.log
+completed.log
+
+# Music Files (Input/Output)
+output/
+*.ncm
+*.qmc*
+*.mgg
+*.mflac
+*.mp3
+*.flac
+*.ogg
+*.wav
+
+# Temporary files
+*.tmp
+*.crdownload
+*.opdownload
+
+# IDEs
+.vscode/
+.idea/
+
+# Binaries (Optional: Comment out if you want to include the exe)
+# cli/um.exe
+msedgedriver.exe
